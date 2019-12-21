@@ -4,6 +4,9 @@ import java.io.Serializable;
 
 /*
  * Serialize, thread and clone save lazy loading and scalable singleton
+ * 
+ * https://howtodoinjava.com/design-patterns/creational/singleton-design-pattern-in-java/
+ * 
  */
 public class Singleton implements Serializable, Cloneable {
     private static final long serialVersionUID = 1L;
